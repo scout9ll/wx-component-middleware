@@ -1,0 +1,39 @@
+{
+  "name": "wx-component-service",
+  "version": "1.0.0",
+  "author": "scout911",
+  "license": "MIT",
+  "description": "用中间件的方式直接调用微信第三方平台服务",
+  "main": "src/index.js",
+  "tags": [
+    "微信第三方平台",
+    "koa",
+    "middleware",
+    "typescript"
+  ],
+  "scripts": {
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.2",
+    "node-fetch": "^2.6.1",
+    "redis": "^3.0.2",
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.48",
+    "@types/node": "^12.0.0",
+    "@types/node-fetch": "^2.5.7",
+    "@types/redis": "^2.8.28",
+    "@types/xml-js": "^1.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.10.0",
+    "@typescript-eslint/parser": "^4.10.0",
+    "eslint": "^7.16.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^1.19.0",
+    "ts-node": "^8.1.0",
+    "tsconfig-paths": "^3.8.0",
+    "typescript": "^4.1.3"
+  }
+}
