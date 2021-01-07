@@ -1,8 +1,10 @@
 ## Usage
 
+**koa**
+
 ```js
 import Koa from "koa";
-import wxComponentService from "koa-wxc";
+import wxComponentService from "wx-component-service";
 
 const app = new Koa();
 
@@ -24,7 +26,7 @@ wxComponentService(
   }
 );
 
-// register route for revicing component_ticket
+// registe route for revicing component_ticket
 import KoaRouter from "koa-router";
 const router = new KoaRouter();
 router.post("/notify", async (ctx, next) => {
