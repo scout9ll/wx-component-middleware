@@ -1,10 +1,10 @@
 {
   "name": "wx-component-service",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "author": "scout911",
   "license": "MIT",
   "description": "用中间件的方式直接调用微信第三方平台服务",
-  "main": "src/index.js",
+  "main": "src/index.ts",
   "tags": [
     "微信第三方平台",
     "koa",
@@ -13,10 +13,12 @@
   ],
   "scripts": {
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steve9II/wx-component-middleware"
+  },
   "dependencies": {
     "crypto": "^1.0.1",
-    "koa": "^2.7.0",
-    "koa-body": "^4.1.2",
     "node-fetch": "^2.6.1",
     "redis": "^3.0.2",
     "xml-js": "^1.6.11"
