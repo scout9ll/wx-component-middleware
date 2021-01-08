@@ -1,6 +1,6 @@
 {
   "name": "wx-component-service",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "scout911",
   "license": "MIT",
   "description": "用中间件的方式直接调用微信第三方平台服务",
@@ -13,7 +13,7 @@
     "typescript"
   ],
   "scripts": {
-    "build":"tsc"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
